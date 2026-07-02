@@ -9,6 +9,8 @@ export const services = [
       "Overhead imagery and timelapse video",
       "Event and promotional content",
     ],
+    mediaType: "image",
+    image: "/images/services/residential_lake.jpg",
   },
   {
     category: "Inspection & Survey Services",
@@ -20,6 +22,8 @@ export const services = [
       "Construction progress monitoring",
       "Pre/post-event documentation (non-licensed assessment)",
     ],
+    mediaType: "image",
+    image: "/images/services/topdown.jpg",
   },
   {
     category: "3D Modeling & Mapping",
@@ -31,6 +35,8 @@ export const services = [
       "Site change tracking over time",
       "Planning and visualization tools",
     ],
+    mediaType: "luma",
+    lumaId: "a702722b-9570-473d-a819-96c8e4381b9d",
   },
   {
     category: "Advanced & Emerging Services",
@@ -42,6 +48,8 @@ export const services = [
       "GPS-denied or tight-space environments",
       "Pre-incident site overviews",
     ],
+    mediaType: "image",
+    image: "/images/services/car_meet.jpg",
   },
   {
     category: "Advanced & Emerging Services",
@@ -54,5 +62,7 @@ export const services = [
       "Livestock and water zone observation",
       "Thermal-style environmental monitoring (experimental use)",
     ],
+    mediaType: "image",
+    image: "/images/services/agriculture.jpg",
   },
 ];

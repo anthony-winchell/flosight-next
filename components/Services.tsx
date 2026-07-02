@@ -1,25 +1,38 @@
 import { services } from "@/lib/services";
 import Section from "@/components/ui/Section";
+import Image from "next/image";
 
 export function Services() {
   return (
-    <div id="services">
+    <div>
       <Section
         title="Services"
         subtitle="A structured suite of aerial capture, mapping, and inspection services."
       >
-        <div  className="space-y-20">
+        <div className="space-y-20">
           {services.map((service) => (
             <div
               key={service.title}
               className="grid md:grid-cols-2 gap-10 items-center"
             >
-              <div className="h-[320px] rounded-xl border border-border bg-card relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 via-orange-500/10 to-cyan-400/10" />
-                <div className="relative h-full flex items-center justify-center text-muted-foreground">
-                  Visual Placeholder
+              {service.mediaType === "image" ? (
+                <div className="relative h-[360px] overflow-hidden rounded-2xl border border-border">
+                  <Image
+                    src={service.image}
+                    alt={service.title}
+                    fill
+                    className="object-cover"
+                  />
                 </div>
-              </div>
+              ) : (
+                <div className="relative aspect-video overflow-hidden rounded-2xl border border-border">
+                  <iframe
+                    src={`https://lumalabs.ai/embed/${service.lumaId}?mode=sparkles&showMenu=false`}
+                    className="absolute inset-0 h-full w-full"
+                    allowFullScreen
+                  />
+                </div>
+              )}
 
               <div>
                 <p className="text-xs uppercase tracking-wider text-muted-foreground mb-2">

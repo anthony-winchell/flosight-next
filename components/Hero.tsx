@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Hero() {
@@ -53,15 +54,18 @@ export default function Hero() {
         </div>
 
         {/* RIGHT SIDE */}
-        <div className="relative">
-          {/* Main visual container */}
-          <div className="h-[420px] rounded-xl border border-border bg-card flex items-center justify-center overflow-hidden">
-            <p className="text-muted-foreground">
-              Drone / Thermal Image Placeholder
-            </p>
+        <div className="relative h-[520px]">
+          <div className="absolute inset-0 rounded-3xl bg-gradient-to-tr from-primary/20 via-transparent to-purple-500/20 blur-3xl" />
 
-            {/* subtle glow accent */}
-            <div className="absolute inset-0 opacity-20 bg-gradient-to-br from-purple-500 via-orange-500 to-cyan-400" />
+          <div className="relative overflow-hidden rounded-3xl border border-border shadow-2xl">
+            <Image
+              src="/images/gallery/construction.JPG"
+              alt="Construction Site Progress"
+              width={900}
+              height={700}
+              className="w-full h-[520px] object-cover"
+              priority
+            />
           </div>
         </div>
       </div>
