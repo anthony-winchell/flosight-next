@@ -1,32 +1,32 @@
 export const gallery = [
   {
-    title: "Residential Survey - Lake County",
-    category: "Inspection",
+    title: "Sunset View",
+    category: "Photography",
     image: "/images/gallery/sunset.JPG",
   },
   {
-    title: "Residential lot outline",
-    category: "Mapping",
+    title: "Confined Dock View",
+    category: "Photography",
     image: "/images/gallery/dock.JPG",
   },
   {
-    title: "Construction Progress View",
+    title: "Arial View of Subdivision",
     category: "Inspection",
     image: "/images/gallery/subdivision.JPG",
   },
   {
-    title: "Real Estate Overview",
+    title: "Baseball Field Arial View",
     category: "Photography",
     image: "/images/gallery/baseball.JPG",
   },
   {
-    title: "Top-Down Construction Site Capture",
-    category: "Mapping",
+    title: "Baseball Field Flag",
+    category: "Photography",
     image: "/images/gallery/flag.JPG",
   },
   {
-    title: "Sunset Capture",
-    category: "Photography",
+    title: "Roundabout Construction Progress",
+    category: "Inspection",
     image: "/images/gallery/roundabout.JPG",
   },
 ];
