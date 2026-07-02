@@ -12,25 +12,22 @@ export default function Navbar() {
         </Link>
 
         <nav className="hidden md:flex gap-6 text-sm text-muted-foreground">
-          <Link href="/services" className="hover:text-foreground transition">
+          <Link href="#services" className="hover:text-foreground transition">
             Services
           </Link>
-          <Link href="/gallery" className="hover:text-foreground transition">
+          <Link href="#gallery" className="hover:text-foreground transition">
             Gallery
           </Link>
-          <Link href="/about" className="hover:text-foreground transition">
-            About
-          </Link>
-          <Link href="/contact" className="hover:text-foreground transition">
+          <Link href="#contact" className="hover:text-foreground transition">
             Contact
           </Link>
         </nav>
 
         <Link
-          href="/contact"
+          href="#contact"
           className="px-4 py-2 rounded-md bg-primary text-primary-foreground text-sm font-medium hover:opacity-90 transition"
         >
-          Request Quote
+          Request Consultation
         </Link>
       </div>
     </header>

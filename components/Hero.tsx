@@ -40,7 +40,7 @@ export default function Hero() {
               href="/contact"
               className="px-5 py-3 rounded-md bg-primary text-primary-foreground font-medium hover:opacity-90 transition"
             >
-              Request Quote
+              Request Consultation
             </Link>
 
             <Link
