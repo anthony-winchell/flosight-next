@@ -1,4 +1,4 @@
-import { services } from "@/lib/services";
+import { services } from "@/lib/marketing/services";
 import Section from "@/components/ui/Section";
 import Image from "next/image";
 

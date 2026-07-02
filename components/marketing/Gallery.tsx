@@ -1,6 +1,6 @@
 "use client";
 
-import { gallery } from "@/lib/gallery";
+import { gallery } from "@/lib/marketing/gallery";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import Image from "next/image";
 
