@@ -1,5 +1,5 @@
 type LeadStatus =
-  | "NEW"
+  | "NEW" 
   | "CONTACTED"
   | "IN_PROGRESS"
   | "COMPLETED"

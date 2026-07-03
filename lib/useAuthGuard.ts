@@ -8,7 +8,7 @@ export function useAuthGuard() {
     const token = localStorage.getItem("token");
 
     if (!token) {
-      router.push("/admin/login");
+      router.push("/login");
     }
   }, [router]);
 }

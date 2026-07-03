@@ -20,6 +20,7 @@ export const leadSchema = z.object({
   projectLocation: z.string().min(2),
 
   projectBudget: z.string().min(1),
+
 });
 
 export type LeadFormData = z.infer<typeof leadSchema>;

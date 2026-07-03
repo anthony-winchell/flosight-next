@@ -30,7 +30,10 @@ export default function Contact() {
       setError("");
       setSuccess(false);
 
-      await api.post("/api/leads", data);
+      await api.post("/api/leads", {
+        ...data, 
+        status: "NEW",
+      });
 
       setSuccess(true);
       reset();

@@ -31,7 +31,7 @@ export default function LoginPage() {
       // store JWT (simple version for now)
       localStorage.setItem("token", token);
 
-      router.push("/admin/dashboard");
+      router.push("/admin/leads");
     } catch (err) {
       setError("Invalid credentials");
     } finally {
