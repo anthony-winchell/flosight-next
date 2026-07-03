@@ -37,7 +37,7 @@ export default function LeadsPage() {
     THREE_DIMENSIONAL_RENDERING: "3D Rendering",
     FPV_SCOUTING: "FPV Scouting",
     OTHER: "Other",
-  }
+  };
 
   useEffect(() => {
     async function fetchLeads() {
