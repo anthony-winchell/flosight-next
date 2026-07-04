@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -7,8 +8,13 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 w-full z-50 border-b border-border bg-background/60 backdrop-blur-md">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="font-bold tracking-wide">
-          FLOSIGHT DRONEWORKS
+        <Link href="/" className="tracking-wide">
+          <Image
+            alt="signature"
+            width={200}
+            height={100}
+            src="/images/signature.png"
+          />
         </Link>
 
         <nav className="hidden md:flex gap-6 text-sm text-muted-foreground">
