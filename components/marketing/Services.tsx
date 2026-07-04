@@ -18,7 +18,7 @@ export function Services() {
               {service.mediaType === "image" ? (
                 <div className="relative h-[360px] overflow-hidden rounded-2xl border border-border">
                   <Image
-                    src={service.image}
+                    src={service.image!}
                     alt={service.title}
                     fill
                     className="object-cover"
