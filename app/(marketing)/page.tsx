@@ -1,5 +1,4 @@
 import Contact from "@/components/marketing/Contact";
-import Footer from "@/components/marketing/Footer";
 import Hero from "@/components/marketing/Hero";
 import { Services } from "@/components/marketing/Services";
 import Gallery from "@/components/marketing/Gallery";

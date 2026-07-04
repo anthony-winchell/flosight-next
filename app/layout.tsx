@@ -21,6 +21,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "FloSight Droneworks",
+  icons: "icon.png",
   description: "Aerial Mapping and Inspection Services",
 };
 
