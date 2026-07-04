@@ -38,14 +38,14 @@ export default function Hero() {
           {/* CTA */}
           <div className="mt-8 flex gap-4">
             <Link
-              href="/contact"
+              href="#contact"
               className="px-5 py-3 rounded-md bg-primary text-primary-foreground font-medium hover:opacity-90 transition"
             >
               Request Consultation
             </Link>
 
             <Link
-              href="/services"
+              href="#services"
               className="px-5 py-3 rounded-md border border-border text-foreground hover:bg-card transition"
             >
               View Services

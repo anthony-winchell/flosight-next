@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function Services() {
   return (
-    <div>
+    <div id="services">
       <Section
         title="Services"
         subtitle="A structured suite of aerial capture, mapping, and inspection services."
