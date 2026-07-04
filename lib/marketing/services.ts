@@ -10,7 +10,7 @@ export const services = [
       "Event and promotional content",
     ],
     mediaType: "image",
-    image: "/images/services/residential_lake.jpg",
+    image: "/images/services/residential_lake.JPG",
   },
   {
     category: "Inspection & Survey Services",
@@ -23,7 +23,7 @@ export const services = [
       "Pre/post-event documentation (non-licensed assessment)",
     ],
     mediaType: "image",
-    image: "/images/services/topdown.jpg",
+    image: "/images/services/topdown.JPG",
   },
   {
     category: "3D Modeling & Mapping",
@@ -49,7 +49,7 @@ export const services = [
       "Pre-incident site overviews",
     ],
     mediaType: "image",
-    image: "/images/services/car_meet.jpg",
+    image: "/images/services/car_meet.JPG",
   },
   {
     category: "Advanced & Emerging Services",
@@ -63,6 +63,6 @@ export const services = [
       "Thermal-style environmental monitoring (experimental use)",
     ],
     mediaType: "image",
-    image: "/images/services/agriculture.jpg",
+    image: "/images/services/agriculture.JPG",
   },
 ];

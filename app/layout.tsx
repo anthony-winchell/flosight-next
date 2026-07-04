@@ -41,6 +41,7 @@ export default function RootLayout({
         jetbrainsMono.variable,
       )}
     >
+      <Analytics />
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
