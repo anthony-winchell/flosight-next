@@ -30,9 +30,10 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 text-lg text-muted-foreground">
-            High-resolution drone services for 3D site modeling, property
-            inspections, and professional aerial photography. Built for real
-            estate, construction, infrastructure, and commercial projects.
+            Servicing <b>Central Florida</b> with high-resolution drone services
+            for 3D site modeling, property inspections, and professional aerial
+            photography. Built for real estate, construction, infrastructure,
+            and commercial projects.
           </p>
 
           <div className="flex justify-center gap-3 mt-6 text-sm text-muted-foreground flex-wrap">
@@ -42,6 +43,7 @@ export default function Hero() {
             <span>•</span>
             <span>Aerial Photography</span>
           </div>
+          <h3 className="mt-6 text-2xl font-semibold">(352) 729-1059</h3>
 
           <div className="mt-8 flex justify-center gap-4 flex-wrap">
             <Link
