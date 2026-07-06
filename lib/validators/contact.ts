@@ -8,7 +8,7 @@ export const leadSchema = z.object({
   projectDate: z.string().min(1),
 
   projectType: z.enum([
-   " AERIAL_PHOTOGRAPHY_VIDEOGRAPHY",
+    "AERIAL_PHOTOGRAPHY_VIDEOGRAPHY",
     "INSPECTION_AND_SURVEY",
     "THREE_DIMENSIONAL_RENDERING",
     "FPV_SCOUTING",

@@ -6,6 +6,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 
 import { api } from "@/lib/api";
 import { LeadFormData, leadSchema } from "@/lib/validators/contact";
+import { CheckIcon, XIcon } from "lucide-react";
 
 export default function Contact() {
   const [loading, setLoading] = useState(false);
@@ -118,16 +119,16 @@ export default function Contact() {
               disabled={loading}
               className="w-full bg-primary text-black font-semibold py-3 rounded-md hover:opacity-90 transition"
             >
-              {loading ? "Sending..." : "Submit Request"}
+              {loading ? "Sending, this might take a moment..." : "Submit Request"}
             </button>
 
             {success && (
               <p className="text-green-400 text-sm">
-                ✓ Request sent successfully
+                <CheckIcon className="inline" /> Request sent successfully
               </p>
             )}
 
-            {error && <p className="text-red-400 text-sm">{error}</p>}
+            {error && <p className="text-red-400 text-sm"> <XIcon className="inline" /> {error}</p>}
           </form>
 
           {/* INFO PANEL */}
